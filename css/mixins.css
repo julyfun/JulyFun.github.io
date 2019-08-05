@@ -1,0 +1,92 @@
+.transition-all {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.background-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.serif {
+  font-family: 'Noto Serif', '等线', '微软雅黑', 'Times New Roman', serif;
+}
+.sans-serif {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.animation {
+  animation: bodyshow 0s linear;
+}
+@-moz-keyframes 'bodyshow' {
+  0% {
+    top: -60px;
+    opacity: 0;
+  }
+  33% {
+    top: -40px;
+    opacity: 0.2;
+  }
+  66% {
+    top: -20px;
+    opacity: 0.6;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes 'bodyshow' {
+  0% {
+    top: -60px;
+    opacity: 0;
+  }
+  33% {
+    top: -40px;
+    opacity: 0.2;
+  }
+  66% {
+    top: -20px;
+    opacity: 0.6;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+@-o-keyframes 'bodyshow' {
+  0% {
+    top: -60px;
+    opacity: 0;
+  }
+  33% {
+    top: -40px;
+    opacity: 0.2;
+  }
+  66% {
+    top: -20px;
+    opacity: 0.6;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+@keyframes 'bodyshow' {
+  0% {
+    top: -60px;
+    opacity: 0;
+  }
+  33% {
+    top: -40px;
+    opacity: 0.2;
+  }
+  66% {
+    top: -20px;
+    opacity: 0.6;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
