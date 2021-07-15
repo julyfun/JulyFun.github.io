@@ -252,7 +252,7 @@ nav {
   padding: 12px 0;
 }
 .post-preview p {
-  margin-left: 36%;
+  margin-left: 10% /*这里我魔改了*/;
   padding-left: 0.6em;
   font-size: 1.1em;
   line-height: 1.5;
@@ -282,16 +282,16 @@ nav {
   color: #ce2323;
 }
 .post-preview > a > .post-title {
-  float: left;
-  width: 32%;
+  float: left /*这里我魔改了*/;
+  width: 94%;
   height: 100%;
   font-size: 2em;
-  margin: 21px 0;
+  margin: 21px 21px;
   word-wrap: break-word;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
 .post-preview > a > .post-title.archive {
